@@ -472,6 +472,7 @@ function cargarCarroPedido() {
       carrito = [];
       let fila = document.getElementById("filaProductos");
       fila.innerHTML = " ";
+      actualizarCantidad();
     });
   };
 
@@ -481,6 +482,7 @@ function cargarCarroPedido() {
   fila.appendChild(divFinal);
 }
 cart.onclick = () => {
+  actualizarCantidad();
   cargarCarroPedido();
 };
 
@@ -488,6 +490,7 @@ let btnModalConfirm = document.getElementById("modalConfirm");
 btnModalConfirm.onclick = () => {
   carrito = [];
   cargarCarroPedido();
+  actualizarCantidad();
 };
 
 actualizarCantidad();
