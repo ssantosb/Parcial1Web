@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap'");
+.letraSatisfy {
+  font-family: "Satisfy", sans-serif;
+}
+
+.logo {
+  width: 20%;
+}
+
+.imagenCentro {
+  text-align: center;
+  width: 100%;
+}
+
+.centrado {
+  text-align: center;
+}
+
+#menu {
+  margin-top: 2%;
+}
+.menuNegro {
+  background-color: darkslategrey;
+}
+
+.menuNegro p {
+  color: white;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <h3 class="letraSatisfy">Restaurant&Lounge</h3>
+      <div class="derecha">
+        <div class="row">
+          <div class="col">
+            <img
+              class="logo"
+              src="https://i.imgur.com/1EKrQIi.png"
+              alt="carritoCompras"
+            />
+          </div>
+          <div class="col">
+            <p id="numeroProductos"></p>
+            <p>items</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="imagenEncabezado">
+        <img class="imagenCentro" src="https://i.imgur.com/S8Ffdqa.png" />
+      </section>
+
+      <section id="menu">
+        <div class="container menuNegro">
+          <div class="row">
+            <div class="col-1">
+              <a id="burgers"><p>Burgers</p></a>
+            </div>
+            <div class="col-1">
+              <a id="tacos"><p>Tacos</p></a>
+            </div>
+            <div class="col-1">
+              <a id="salads"><p>Salads</p></a>
+            </div>
+            <div class="col-1">
+              <a id="desserts"><p>Desserts</p></a>
+            </div>
+            <div class="col-1">
+              <a id="drinks"><p>Drinks & Sides</p></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="productos">
+        <div class="container">
+          <div id="nombreCategoria"><h3 class="centrado">Burgers</h3></div>
+          <div id="filaProductos" class="row"></div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
