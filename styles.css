@@ -24,6 +24,11 @@
   width: 100%;
 }
 
+.fondoOscuro {
+  background-color: darkslategrey;
+  color: white;
+}
+
 .menuNegro p {
   color: white;
 }

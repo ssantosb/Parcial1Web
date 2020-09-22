@@ -66,11 +66,11 @@ btnBurgers.onclick = () => {
 
         let precioCard = document.createElement("p");
         precioCard.className = "card-text font-weight-bold";
-        precioCard.innerHTML = element.price;
+        precioCard.innerHTML = "$" + element.price;
         body.appendChild(precioCard);
 
         let btnCarrito = document.createElement("a");
-        btnCarrito.className = "btn btn-primary";
+        btnCarrito.className = "fondoOscuro btn";
         btnCarrito.innerHTML = "Add to car";
         btnCarrito.onclick = () => {
           let producto = {
@@ -133,11 +133,11 @@ btnTacos.onclick = () => {
 
         let precioCard = document.createElement("p");
         precioCard.className = "card-text font-weight-bold";
-        precioCard.innerHTML = element.price;
+        precioCard.innerHTML = "$" + element.price;
         body.appendChild(precioCard);
 
         let btnCarrito = document.createElement("a");
-        btnCarrito.className = "btn btn-primary";
+        btnCarrito.className = "fondoOscuro btn";
         btnCarrito.innerHTML = "Add to car";
         btnCarrito.onclick = () => {
           let producto = {
@@ -201,11 +201,11 @@ btnSalads.onclick = () => {
 
         let precioCard = document.createElement("p");
         precioCard.className = "card-text font-weight-bold";
-        precioCard.innerHTML = element.price;
+        precioCard.innerHTML = "$" + element.price;
         body.appendChild(precioCard);
 
         let btnCarrito = document.createElement("a");
-        btnCarrito.className = "btn btn-primary";
+        btnCarrito.className = "fondoOscuro btn";
         btnCarrito.innerHTML = "Add to car";
         btnCarrito.onclick = () => {
           let producto = {
@@ -267,11 +267,11 @@ btnDesserts.onclick = () => {
 
         let precioCard = document.createElement("p");
         precioCard.className = "card-text font-weight-bold";
-        precioCard.innerHTML = element.price;
+        precioCard.innerHTML = "$" + element.price;
         body.appendChild(precioCard);
 
         let btnCarrito = document.createElement("a");
-        btnCarrito.className = "btn btn-primary";
+        btnCarrito.className = "fondoOscuro btn";
         btnCarrito.innerHTML = "Add to car";
         btnCarrito.onclick = () => {
           let producto = {
@@ -333,11 +333,11 @@ btnDrinks.onclick = () => {
 
         let precioCard = document.createElement("p");
         precioCard.className = "card-text font-weight-bold";
-        precioCard.innerHTML = element.price;
+        precioCard.innerHTML = "$" + element.price;
         body.appendChild(precioCard);
 
         let btnCarrito = document.createElement("a");
-        btnCarrito.className = "btn btn-primary";
+        btnCarrito.className = "fondoOscuro btn";
         btnCarrito.innerHTML = "Add to car";
         btnCarrito.onclick = () => {
           let producto = {
