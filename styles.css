@@ -20,25 +20,25 @@
   margin-top: 2%;
 }
 .menuNegro {
-  background-color: darkslategrey;
+  background-color: rgb(47, 79, 79);
   width: 100%;
 }
 
 .fondoOscuro {
-  background-color: darkslategrey;
-  color: white;
+  background-color: rgb(47, 79, 79);
+  color: rgb(255, 255, 255);
 }
 
 .menuNegro p {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .fondoCrimson {
-  background-color: crimson;
+  background-color: rgb(220, 20, 60);
 }
 
 .fondoCornsilk {
-  background-color: cornsilk;
+  background-color: rgb(255, 248, 220);
 }
 
 #footerContact {
