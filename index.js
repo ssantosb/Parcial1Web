@@ -1,18 +1,7 @@
 const urlProductosCategorias =
   "https://gist.githubusercontent.com/josejbocanegra/9a28c356416badb8f9173daf36d1460b/raw/5ea84b9d43ff494fcbf5c5186544a18b42812f09/restaurant.json";
 
-let burgers = [];
-let burgerSize = 0;
-let tacos = [];
-let tacoSize = 0;
-let salads = [];
-let saladSize = 0;
-let desserts = [];
-let dessertsize = 0;
-let drinks = [];
-let drinkSize = 0;
 let carrito = [];
-let carritoSize = 0;
 
 let removeAllChildNodes = (parent) => {
   while (parent.firstChild) {
