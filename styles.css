@@ -21,6 +21,7 @@
 }
 .menuNegro {
   background-color: darkslategrey;
+  width: 100%;
 }
 
 .menuNegro p {
@@ -33,4 +34,8 @@
 
 .fondoCornsilk {
   background-color: cornsilk;
+}
+
+#footerContact {
+  margin-top: 2%;
 }
